@@ -28,9 +28,6 @@ Collection of landing pages.
 
 - FIrst fork this project.
 
-- Clone your forked version ```git clone https://github.com/<YOUR-USERNAME>/landing-page.git```
- and make changes.
-
 - Commit your changes (write a short descriptive message of what you have done).
 
 - Push your changes to your forked version.
