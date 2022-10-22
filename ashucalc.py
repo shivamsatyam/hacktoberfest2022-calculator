@@ -8,28 +8,7 @@ root.title("Calculator")
 root.wm_iconbitmap('calculator.ico')
 
 ########## Function ##########
-def click (event):
-	global entr
-	text = event.widget.cget("text") 
-	print(text)
-	
-	if text == "C":
-	 	entr.set("")
-	 	entry.update()
 
-	elif text == "=":
-	 	if entr.get().isdigit():
-	 		value = int(ent.get())
-	 	else:
-	 		value = eval(entry.get())
-
-	 	entr.set(value)
-	 	entry.update()
-
-
-	else:
-	 	entr.set(entr.get() + text)
-	 	entry.update()
 
 ########## Entry ##########
 entr = StringVar()
